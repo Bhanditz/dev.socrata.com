@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
-gem 'github-pages', '192'
+gem 'github-pages', '203'
 
 gem 'jekyll-feed'
 gem 'ferret'
 gem 'nokogiri', '>= 1.8.2'
 gem 'pry'
 gem 'mime-types'
-gem 'html-proofer'
+gem 'html-proofer', '>= 3.9.2'
 gem 'httparty'
 gem 'colorize'
 gem 'rake'
