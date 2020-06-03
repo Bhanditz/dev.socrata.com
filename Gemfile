@@ -18,7 +18,7 @@ group :development do
   gem 'simple-rss'
   gem 'reverse_markdown'
   gem 'capybara'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.18.1'
   gem 'rspec'
   gem 'puma'
 end
