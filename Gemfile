@@ -13,12 +13,12 @@ gem 'colorize'
 gem 'rake'
 
 group :development do
-  gem 'rack'
-  gem 'rack-contrib'
+  gem 'rack', '>= 2.1.4'
+  gem 'rack-contrib', '>= 2.1.0'
   gem 'simple-rss'
   gem 'reverse_markdown'
-  gem 'capybara'
-  gem 'poltergeist'
+  gem 'capybara', '>= 3.10.1'
+  gem 'poltergeist', '>= 1.18.1'
   gem 'rspec'
   gem 'puma'
 end
