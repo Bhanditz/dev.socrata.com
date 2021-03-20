@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem 'github-pages', '192'
+gem 'github-pages', '207'
 
-gem 'jekyll-feed'
+gem 'jekyll-feed', '>= 0.10.0'
 gem 'ferret'
 gem 'nokogiri', '>= 1.8.2'
 gem 'pry'
