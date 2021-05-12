@@ -20,5 +20,5 @@ group :development do
   gem 'capybara'
   gem 'poltergeist'
   gem 'rspec'
-  gem 'puma'
+  gem 'puma', '>= 4.3.8'
 end
