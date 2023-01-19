@@ -1,19 +1,19 @@
 source "https://rubygems.org"
 
-gem 'github-pages', '192'
+gem 'github-pages', '203'
 
 gem 'jekyll-feed'
 gem 'ferret'
 gem 'nokogiri', '>= 1.8.2'
 gem 'pry'
 gem 'mime-types'
-gem 'html-proofer'
+gem 'html-proofer', '>= 3.12.0'
 gem 'httparty'
 gem 'colorize'
 gem 'rake'
 
 group :development do
-  gem 'rack'
+  gem 'rack', '>= 2.0.9.2'
   gem 'rack-contrib'
   gem 'simple-rss'
   gem 'reverse_markdown'
