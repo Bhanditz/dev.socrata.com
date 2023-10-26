@@ -251,9 +251,9 @@ GEM
       method_source (~> 0.9.0)
     public_suffix (2.0.5)
     puma (3.12.0)
-    rack (2.0.6)
-    rack-contrib (2.1.0)
-      rack (~> 2.0)
+    rack (2.2.8)
+    rack-contrib (2.4.0)
+      rack (< 4)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rake (12.3.1)
@@ -323,11 +323,11 @@ DEPENDENCIES
   pry
   puma
   rack
-  rack-contrib
+  rack-contrib (>= 2.4.0)
   rake
   reverse_markdown
   rspec
   simple-rss
 
 BUNDLED WITH
-   1.17.1
+   1.17.3
