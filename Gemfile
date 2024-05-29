@@ -14,7 +14,7 @@ gem 'rake'
 
 group :development do
   gem 'rack'
-  gem 'rack-contrib'
+  gem 'rack-contrib', '>= 2.5.0'
   gem 'simple-rss'
   gem 'reverse_markdown'
   gem 'capybara'
