@@ -251,7 +251,7 @@ GEM
       method_source (~> 0.9.0)
     public_suffix (2.0.5)
     puma (3.12.0)
-    rack (2.0.6)
+    rack (2.2.11)
     rack-contrib (2.1.0)
       rack (~> 2.0)
     rack-test (1.1.0)
@@ -322,7 +322,7 @@ DEPENDENCIES
   poltergeist
   pry
   puma
-  rack
+  rack (>= 2.2.11)
   rack-contrib
   rake
   reverse_markdown
@@ -330,4 +330,4 @@ DEPENDENCIES
   simple-rss
 
 BUNDLED WITH
-   1.17.1
+   1.17.3
