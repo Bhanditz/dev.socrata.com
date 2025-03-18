@@ -13,7 +13,7 @@ gem 'colorize'
 gem 'rake'
 
 group :development do
-  gem 'rack'
+  gem 'rack', '>= 2.2.13'
   gem 'rack-contrib'
   gem 'simple-rss'
   gem 'reverse_markdown'
