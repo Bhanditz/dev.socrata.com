@@ -8,7 +8,7 @@ gem 'nokogiri', '>= 1.8.2'
 gem 'pry'
 gem 'mime-types'
 gem 'html-proofer'
-gem 'httparty'
+gem 'httparty', '>= 0.24.0'
 gem 'colorize'
 gem 'rake'
 
